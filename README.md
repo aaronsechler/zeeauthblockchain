@@ -30,15 +30,27 @@ The network was configured using puppeth, another program found in the block cha
 
 You can now use the MyCrypto Application to connect to the nodes in each network and send a transaction. You can find mycrypto in the applications folder using the finder. Once you have it open the first step is to create a network for the nodes to communicate with each other. Start by clicking on the change network button on the lower left of the main screen.
 
+![Network Button](ScreenShots/ChangeNetworkButton.png)
+
 Then click on Create Custom Node, again on the lower left.
+
+![Network Button](ScreenShots/AddCustomNodeButton.png)
 
 Change the Network Button on the upper right to custom and enter the following values. Set Node Name and Network Name to zeeauthblockchain, the cCurrency to ETH, the Chain ID TO 123, and the URL to https://127.0.0.1:8545. When you've done that click on save and use custom node, and you should be able to see that the network is running properly on the lower left of the main screen.
 
+![Network Button](ScreenShots/CustomNodeSetup.png)
+
 Now it's time to connect your Node to the Network you just made. Click on the Select Wallet File and naviagate to the Blockchain-Tools folder on the desktop, and then go to the Node3 folder and select the keystone file. Click on open, and add the same password as the bank uses for everything, lulz. You can access node4 the same way. 
+
+![Network Button](ScreenShots/KeystoreFileButton.png)
+
+![Network Button](ScreenShots/SelectingtheKeystoreFile.png)
 
 Since you've connected the nodes, you can see if they are working by sending test ethereum from one node to the other. The address of the two nodes is below. Once you've entered the address of the other node select and amount and a speed, which sets the priority of recording the transaction and costs more the less time it will take the network to complete the transfer. Once you've clicked send a second screen will pop up and you can confirm the transaction.
 
 Node 4's address: 0x76F4af7856A03EfBB02b6E626CDd1214dC073544
 Node 3's address: 0x71D9AC7418169A693286c110613A28688cAB2B0D
+
+![Network Button](ScreenShots/SendTransactionScreen.png)
 
 You can then check the status of the transaction using the check status button, or the transaction history section on the right.
